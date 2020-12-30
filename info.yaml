@@ -1,0 +1,19 @@
+--- 
+project: 
+  description: "A core design for Google sponsored Open MPW shuttles for SKY130."
+  foundry: "SkyWater"
+  git_url: "https://github.com/abdulmuneeb-lm/tinyriscv"
+  organization: "Lampro Mellon"
+  organization_url: "http://lampromellon.com"
+  owner: "Sarmad"
+  process: "SKY130"
+  project_name: "Tiny_riscv"
+  tags: 
+    - "Open MPW"
+    - "Tiny_riscv"
+    - "Test Harness"
+  category: "Mega Project"
+  top_level_netlist: "verilog/gl/caravel.v"
+  user_level_netlist: "verilog/gl/user_project_wrapper.v"
+  version: "1.00"
+  cover_image: "doc/ciic_harness.png"
