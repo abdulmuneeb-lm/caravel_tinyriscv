@@ -24,7 +24,8 @@ Organized into two subdirectories:
 <pre>
 ├── caravel
 │   ├── mgmt_soc
-│   ├── user_proj_example
+│   ├── ~~user_proj_example~~
+│   ├── tinyriscv
 └── wb_utests
 </pre>
 
