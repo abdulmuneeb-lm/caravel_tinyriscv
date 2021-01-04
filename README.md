@@ -15,12 +15,12 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 -->
-# Tiny_RISC-V core
+# Ghazi SoC
 
-A RISC-V core design for Google sponsored Open MPW shuttles for SKY130.
+An SoC (System on a Chip) design for Google sponsored Open MPW shuttles for SKY130.
 
 <p align=”center”>
-<img src="/doc/tiny_riscv_core.png" > 
+<img src="/doc/Ghazi-SoC.png" > 
 </p>
 
 

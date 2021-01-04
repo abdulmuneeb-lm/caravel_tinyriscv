@@ -27,7 +27,7 @@ module user_project_wrapper(user_clock2, wb_clk_i, wb_rst_i, wbs_ack_o, wbs_cyc_
   input [3:0] wbs_sel_i;
   input wbs_stb_i;
   input wbs_we_i;
-  tinyriscv mprj (
+  ghazi_top_dffram_csv mprj (
     .VGND(vssd1),
     .VPWR(vccd1),
     .io_in(io_in),

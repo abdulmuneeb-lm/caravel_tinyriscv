@@ -1,7 +1,7 @@
 package require openlane
 set script_dir [file dirname [file normalize [info script]]]
 
-prep -design $script_dir -tag 23_Dec_without_X_Virus 
+prep -design $script_dir -tag 04_01_2021 
 set save_path $script_dir/../..
 run_magic        
 run_magic_spice_export
