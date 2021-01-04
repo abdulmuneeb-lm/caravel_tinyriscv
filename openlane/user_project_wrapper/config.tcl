@@ -37,7 +37,7 @@ set ::env(VERILOG_FILES) "\
 
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$script_dir/../../verilog/rtl/defines.v \
-	$script_dir/../../verilog/rtl/riscv/tinyriscv.v"
+	$script_dir/../../verilog/rtl/tinyriscv.v"
 
 set ::env(EXTRA_LEFS) "\
 	$script_dir/../../lef/tinyriscv.lef"

@@ -3,7 +3,7 @@ set script_dir [file dirname [file normalize [info script]]]
 set ::env(DESIGN_NAME) tinyriscv
 
 # Change if needed
-set ::env(VERILOG_FILES) [glob $script_dir/../../verilog/rtl/defines.v $script_dir/../../verilog/rtl/riscv/*.v]
+set ::env(VERILOG_FILES) [glob $script_dir/../../verilog/rtl/defines.v $script_dir/../../verilog/rtl/tinyriscv/*.v]
 set ::env(SYNTH_READ_BLACKBOX_LIB) 1
 set ::env(FP_SIZING) absolute
 set ::env(DIE_AREA) "0 0 2300 3000"
@@ -21,5 +21,5 @@ set ::env(GLB_RT_MAX_DIODE_INS_ITERS) 1
 #defaults
 set ::env(BASE_SDC_FILE) $script_dir/tinyriscv.sdc
 # Fill this
-set ::env(CLOCK_PERIOD) "40"
+set ::env(CLOCK_PERIOD) "80"
 set ::env(CLOCK_PORT) "wb_clk_i"
